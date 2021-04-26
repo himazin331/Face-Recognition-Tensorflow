@@ -143,24 +143,9 @@ def main():
                 cv2.putText(frame, "Unknown",
                             p, cv2.FONT_HERSHEY_SIMPLEX, 1.0, green, thickness=2)
             elif c == 1:
-                cv2.putText(frame, "Kohayakawa",
+                cv2.putText(frame, "True",
                             p, cv2.FONT_HERSHEY_SIMPLEX, 1.0, green, thickness=2)
-            elif c == 2:
-                cv2.putText(frame, "Kouta",
-                            p, cv2.FONT_HERSHEY_SIMPLEX, 1.0, green, thickness=2)
-            elif c == 3:
-                cv2.putText(frame, "Nakayama",
-                            p, cv2.FONT_HERSHEY_SIMPLEX, 1.0, green, thickness=2)
-            elif c == 4:
-                cv2.putText(frame, "Saikawa",
-                            p, cv2.FONT_HERSHEY_SIMPLEX, 1.0, green, thickness=2)
-            elif c == 5:
-                cv2.putText(frame, "Shion",
-                            p, cv2.FONT_HERSHEY_SIMPLEX, 1.0, green, thickness=2)
-            elif c == 6:
-                cv2.putText(frame, "Takei",
-                            p, cv2.FONT_HERSHEY_SIMPLEX, 1.0, green, thickness=2)
-                
+
             cv2.imshow("frame", frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
